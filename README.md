@@ -54,6 +54,7 @@ Python 3.8+: Install Python from the official website.
 pip: Comes with Python; verify installation with pip --version.
 Node.js (Optional, for blockchain testing): Install from Node.js official website.
 Ganache (Blockchain): Install Ganache for local Ethereum blockchain testing.
+
 2. Project Setup
 Clone the Repository:
 
@@ -73,6 +74,7 @@ Install Dependencies: Install all required Python libraries:
 bash
 Copy code
 pip install -r requirements.txt
+
 3. Train the AI Models
 Train the models using the provided scripts:
 
@@ -100,6 +102,8 @@ Configure Web3:
 
 Ensure blockchain.py connects to the correct blockchain endpoint (http://127.0.0.1:8545).
 Use Ganache-provided accounts for transactions.
+
+
 5. Run the Flask Application
 Start the Flask App:
 
@@ -111,6 +115,8 @@ Access the Application: Open your browser and navigate to:
 arduino
 Copy code
 http://127.0.0.1:5000
+
+
 6. Analyze Test Data
 Upload a Test File:
 
@@ -124,6 +130,8 @@ Blockchain Report Hashing:
 
 The analysis report is hashed and stored on the blockchain.
 You can verify the report’s integrity via the hash.
+
+
 7. Verify Report Integrity
 Obtain the Report Hash:
 
@@ -131,6 +139,8 @@ The generated hash will be displayed on the "Report" page.
 Verify the Hash:
 
 Use the /verify endpoint or a blockchain tool to validate the hash against the stored value.
+
+
 8. Optional: Use Automation Script
 You can automate the entire setup and execution using the run_project.sh script:
 
@@ -150,6 +160,8 @@ This script sets up the environment, installs dependencies, trains models, and s
 Testing Models: Use test CSV files and observe the predictions.
 Debugging Blockchain: Monitor transactions in Ganache to ensure reports are being hashed correctly.
 Flask Logs: Check logs in the terminal for any application errors.
+
+
 10. Deployment
 To deploy this project:
 
