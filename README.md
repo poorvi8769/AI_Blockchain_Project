@@ -59,7 +59,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-repo/AI_Blockchain_Project.git
+git clone https://github.com/poorvi8769/AI_Blockchain_Project.git
 cd AI_Blockchain_Project
 Create and Activate a Virtual Environment:
 
